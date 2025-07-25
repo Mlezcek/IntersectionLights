@@ -64,7 +64,7 @@ To run with custom files, mount them and override the command. For example:
 
 ```bash
 docker run --rm -v $(pwd)/my_input.json:/app/input.json traffic-light \
-  java -jar app.jar input.json my_output.json
+  java -jar app.jar input.json output.json
 ```
 
 ## Building
