@@ -17,6 +17,7 @@ determine which lanes receive a green signal each step. The code is organized wi
 
 - [Project Structure](#project-structure)
 - [Core Components](#core-components)
+- [Running with Docker](#running-with-docker)
 - [Building](#building)
 - [Running the Simulation](#running-the-simulation)
 - [Command Format](#command-format)
@@ -43,6 +44,28 @@ The core components are:
 - **ConflictMonitor** – checks for conflicting greens and resets lights when detected.
 - **Config** – configuration for lane priorities, phase timings and controller weights.
 
+# Running with Docker
+
+A `Dockerfile` is provided so the simulator can be run without a local Java or Maven installation.
+
+Build the image:
+
+```bash
+docker build -t traffic-light .
+```
+
+Run the container using the included `input.json`:
+
+```bash
+docker run --rm traffic-light
+```
+
+To run with custom files, mount them and override the command. For example:
+
+```bash
+docker run --rm -v $(pwd)/my_input.json:/app/input.json traffic-light \
+  java -jar app.jar input.json my_output.json
+```
 
 ## Building
 
