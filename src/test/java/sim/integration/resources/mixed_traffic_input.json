@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "type": "addVehicle",
+      "vehicleId": "V1",
+      "startRoad": "NORTH",
+      "endRoad": "SOUTH"
+    },
+    {
+      "type": "addVehicle",
+      "vehicleId": "V2",
+      "startRoad": "EAST",
+      "endRoad": "WEST",
+      "vehicleType": "BUS"
+    },
+    {
+      "type": "addVehicle",
+      "vehicleId": "V3",
+      "startRoad": "SOUTH",
+      "endRoad": "NORTH",
+      "vehicleType": "EMERGENCY"
+    },
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"},
+    {"type": "step"}
+  ]
+}

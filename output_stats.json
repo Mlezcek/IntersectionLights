@@ -1,0 +1,43 @@
+{
+  "totalVehicles" : 4,
+  "vehiclesLeft" : 2,
+  "vehiclesRemaining" : 2,
+  "averageWaitTime" : 1.0,
+  "maxWaitTime" : {
+    "left" : 1,
+    "remaining" : 2
+  },
+  "totalSteps" : 4,
+  "phases" : {
+    "Phase0" : {
+      "timesActivated" : 1,
+      "totalDuration" : 2,
+      "avgDuration" : 2.0,
+      "avgWaitTime" : 1.0
+    },
+    "Phase1" : {
+      "timesActivated" : 1,
+      "totalDuration" : 1,
+      "avgDuration" : 1.0,
+      "avgWaitTime" : 0.0
+    },
+    "Phase2" : {
+      "timesActivated" : 0,
+      "totalDuration" : 0,
+      "avgDuration" : 0.0,
+      "avgWaitTime" : 0.0
+    },
+    "Phase3" : {
+      "timesActivated" : 0,
+      "totalDuration" : 0,
+      "avgDuration" : 0.0,
+      "avgWaitTime" : 0.0
+    }
+  },
+  "vehiclesPerDirection" : {
+    "NORTH" : 1,
+    "SOUTH" : 1,
+    "EAST" : 0,
+    "WEST" : 2
+  }
+}

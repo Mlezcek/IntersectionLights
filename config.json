@@ -1,0 +1,19 @@
+{
+  "yellowDuration": 1,
+  "alpha": 2.0,
+  "beta": 1.0,
+  "gamma": 1.0,
+  "fairnessCap": 30,
+  "lanePriorities": {
+    "NORTH": { "LEFT": 1.0, "STRAIGHT": 1.0 },
+    "SOUTH": { "LEFT": 1.0, "STRAIGHT": 1.0 },
+    "EAST":  { "LEFT": 1.0, "STRAIGHT": 1.0 },
+    "WEST":  { "LEFT": 1.0, "STRAIGHT": 1.0 }
+  },
+  "phases": [
+    { "minGreen": 2, "maxGreen": 5 },
+    { "minGreen": 2, "maxGreen": 5 },
+    { "minGreen": 2, "maxGreen": 5 },
+    { "minGreen": 2, "maxGreen": 5 }
+  ]
+}
