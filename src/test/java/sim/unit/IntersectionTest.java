@@ -40,7 +40,7 @@ public class IntersectionTest {
         intersection.addVehicle(v2);
 
         List<Vehicle> left = intersection.step();
-        assertEquals(2, left.size());
+        assertEquals(Config.current.vehiclesPerStep, left.size());
         assertTrue(left.containsAll(List.of(v1, v2)));
     }
 }

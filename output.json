@@ -1,11 +1,63 @@
 {
   "stepStatuses" : [ {
-    "leftVehicles" : [ "vehicle2", "vehicle1" ]
+    "leftVehicles" : [ "n1", "s1" ]
   }, {
     "leftVehicles" : [ ]
   }, {
     "leftVehicles" : [ ]
   }, {
+    "leftVehicles" : [ "e1a", "w2" ]
+  }, {
+    "leftVehicles" : [ "e1c", "w4" ]
+  }, {
+    "leftVehicles" : [ "e2a", "w6" ]
+  }, {
+    "leftVehicles" : [ "e2c" ]
+  }, {
+    "leftVehicles" : [ "e3a", "w8" ]
+  }, {
+    "leftVehicles" : [ "e3c" ]
+  }, {
+    "leftVehicles" : [ "e4a", "w10" ]
+  }, {
     "leftVehicles" : [ ]
+  }, {
+    "leftVehicles" : [ "e1b" ]
+  }, {
+    "leftVehicles" : [ "testvehicle1" ]
+  }, {
+    "leftVehicles" : [ "testvehicle2" ]
+  }, {
+    "leftVehicles" : [ "KARETKA" ]
+  }, {
+    "leftVehicles" : [ "e2b" ]
+  }, {
+    "leftVehicles" : [ ]
+  }, {
+    "leftVehicles" : [ "e4c", "w12" ]
+  }, {
+    "leftVehicles" : [ "e5a", "w14" ]
+  }, {
+    "leftVehicles" : [ "e5c", "w16" ]
+  }, {
+    "leftVehicles" : [ "e6a", "w18" ]
+  }, {
+    "leftVehicles" : [ "e6c", "w20" ]
+  }, {
+    "leftVehicles" : [ "e7a", "w22" ]
+  }, {
+    "leftVehicles" : [ "e7c", "w24" ]
+  }, {
+    "leftVehicles" : [ "e8a" ]
+  }, {
+    "leftVehicles" : [ "e8c", "w26" ]
+  }, {
+    "leftVehicles" : [ "e9a" ]
+  }, {
+    "leftVehicles" : [ "e9c", "w28" ]
+  }, {
+    "leftVehicles" : [ "e10a" ]
+  }, {
+    "leftVehicles" : [ "e10c", "w30" ]
   } ]
 }

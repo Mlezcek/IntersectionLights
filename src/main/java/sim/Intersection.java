@@ -109,7 +109,7 @@ public class Intersection {
         for (Road road : roads.values()) {
             for (Lane lane : road.getLanes()) {
                 if (lane.getTrafficLight().getState() == TrafficLightState.GREEN) {
-                    for (int i = 0; i < 2; i++) {
+                    for (int i = 0; i < Config.current.vehiclesPerStep; i++) {
                         Vehicle vehicle = lane.pollVehicle();
                         if (vehicle != null) {
                             leftVehicles.add(vehicle);

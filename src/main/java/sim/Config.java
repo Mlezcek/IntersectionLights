@@ -68,6 +68,11 @@ public class Config {
      */
     public double busPriority = 2.0;
     /**
+     * maximum number of vehicles that may leave a lane on green in one step
+     */
+    public int vehiclesPerStep = 2;
+
+    /**
      * base priority for every lane
      */
     public Map<Direction, Map<LaneType, Double>> lanePriorities = new EnumMap<>(Direction.class);

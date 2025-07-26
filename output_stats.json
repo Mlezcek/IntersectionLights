@@ -1,13 +1,13 @@
 {
-  "totalVehicles" : 4,
-  "vehiclesLeft" : 2,
-  "vehiclesRemaining" : 2,
-  "averageWaitTime" : 1.0,
+  "totalVehicles" : 138,
+  "vehiclesLeft" : 42,
+  "vehiclesRemaining" : 96,
+  "averageWaitTime" : 8.214285714285714,
   "maxWaitTime" : {
-    "left" : 1,
-    "remaining" : 2
+    "left" : 21,
+    "remaining" : 28
   },
-  "totalSteps" : 4,
+  "totalSteps" : 30,
   "phases" : {
     "Phase0" : {
       "timesActivated" : 1,
@@ -16,10 +16,10 @@
       "avgWaitTime" : 1.0
     },
     "Phase1" : {
-      "timesActivated" : 1,
-      "totalDuration" : 1,
-      "avgDuration" : 1.0,
-      "avgWaitTime" : 0.0
+      "timesActivated" : 2,
+      "totalDuration" : 20,
+      "avgDuration" : 10.0,
+      "avgWaitTime" : 8.857142857142858
     },
     "Phase2" : {
       "timesActivated" : 0,
@@ -28,16 +28,16 @@
       "avgWaitTime" : 0.0
     },
     "Phase3" : {
-      "timesActivated" : 0,
-      "totalDuration" : 0,
-      "avgDuration" : 0.0,
-      "avgWaitTime" : 0.0
+      "timesActivated" : 1,
+      "totalDuration" : 2,
+      "avgDuration" : 2.0,
+      "avgWaitTime" : 6.6
     }
   },
   "vehiclesPerDirection" : {
-    "NORTH" : 1,
-    "SOUTH" : 1,
-    "EAST" : 0,
-    "WEST" : 2
+    "NORTH" : 15,
+    "SOUTH" : 15,
+    "EAST" : 90,
+    "WEST" : 18
   }
 }
