@@ -166,6 +166,7 @@ Key options include:
 - `yellowDuration` – how long [steps] lights remain yellow before switching to red
 - `alpha`, `beta`, `gamma` – weights for pressure, queue length and fairness
 - `fairnessCap` –  maximum number of steps a phase may be skipped
+- `vehiclesPerStep` – number of cars that may exit a lane on green in one step
 - `busPriority` – extra priority for vehicles with BUS type
 - `lanePriorities` –  maximum number of steps a phase may be skipped
 - `phases` – list of phases with minimum and maximum green durations
